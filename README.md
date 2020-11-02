@@ -9,19 +9,19 @@ An example for a service created with flask which controls connections to a reso
    [Get it here](https://www.docker.com/products/docker-desktop)
 
 2. Clone the repository using HTTP:
-`https://github.com/omrigee/flask-demo-service-db`
+`git clone https://github.com/omrigee/flask-demo-service-db`
      or
 download the files from:
- https://github.com/omrigee/flask-demo-service to a directory.
+ https://github.com/omrigee/flask-demo-service-db to a directory.
 
 3. Go to repository directory
-   `cd flask-demo-service`
+   `cd flask-demo-service-db`
    
 4. Build the docker container with the following command:
-   `docker build --tag flask-demo-service . `
+   `docker build --tag flask-demo-service-db . `
 
 5. Enter the following command to run the container:
-   `docker run -i -t -p 7800:5000 flask-demo-service`.
+   `docker run -i -t -p 7800:5000 flask-demo-service-db`.
   This command will start the service on port 7800.
     
 
