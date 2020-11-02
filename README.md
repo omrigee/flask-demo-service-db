@@ -9,7 +9,7 @@ An example for a service created with flask which controls connections to a reso
    [Get it here](https://www.docker.com/products/docker-desktop)
 
 2. Clone the repository using HTTP:
-`git clone https://github.com/omrigee/flask-demo-service.git`
+`https://github.com/omrigee/flask-demo-service-db`
      or
 download the files from:
  https://github.com/omrigee/flask-demo-service to a directory.
